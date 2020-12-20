@@ -1,0 +1,201 @@
+body{
+
+    /* background: linear-gradient(to bottom, #8e3cc1 0%, #1a1a1a 90%); */
+    background: linear-gradient(to top, #333399 31%, #1a1a1a 98%);
+    color: #fffafa; /*letra 'snow'*/
+    /* background-image: url(img/prt1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ED3B5B; */
+
+}
+.head{
+    /* margin-left:2em ; */
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    overflow: hidden;
+}
+.head::after{
+    display: block;
+    clear: both;
+    content: "";    
+}
+.bloque{
+    display: block;
+}
+.contenedor {
+    /* display: flex; */
+    margin: 0em 15em 0em 15em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.lista-limpia{
+
+    padding-left: 0;
+    list-style: none;
+
+}
+.video{
+    
+    width:30em;
+    height:30em;
+    
+
+}
+
+.obras{
+    height: 20em ;
+    width: 20em;
+}
+
+.navbar{
+    background-color:  #262228;
+}
+
+.nav-item{
+    display: flex;
+    color:Snow;
+    font: oblique bold 170% cursive;
+    align-items: center;
+}
+
+#bg-color{
+    background-color: transparent;
+    border-color: #FFD700;
+}
+
+.perfil{
+
+    width: 16vw;
+    height: 36vh;
+    color: #FFD700;
+}
+
+.psttn{
+    color: #FFD700;
+    font: "Comic Sans MS", cursive, sans-serif;
+    font-size: 160%;
+    margin: 1em;
+}
+
+.usuario-icono{
+    color: #6f42c1;
+    
+}
+i.fas.fa-user.usuario-icono::before{
+    margin-right: 15px;
+}
+
+.icono-redes{
+    font-size: 2em;
+    color: #edeff3;
+}
+
+.icono-redes-nav{
+    font-size: 1em;
+    color: #edeff3;
+}
+
+.redes i:hover{
+    color: #8e3cc1;
+}
+
+
+#topbar {
+    background: #fff;
+    font-size: 1em;
+    height: 220px;
+    transition: all 0.5s;
+    width: 4rem;
+
+}
+
+#topbar.topbar-transparent {
+    background: transparent;
+}
+
+#topbar .social-links a {
+    color: transparent;
+    display: list-item;
+    height: 4rem;
+    transition: 0.3s;
+}
+
+#topbar .social-links a:first-child {
+    border-left: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 560px
+}
+
+.header-text{
+    position: absolute;
+    top: 27%;
+    left: 1.8%;
+    right: auto;
+    width: 96%;
+    color: #fff;
+    opacity: 0.85;
+}
+
+.intro{
+    font-family: 'ABeeZee';
+    font-size: 2rem;
+    color: #FFD700;
+    background-color: indigo;
+    padding: 30px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+    padding: 15px;
+    font-size: 3vw;
+}
+
+.header-text h3 span {
+    background-color: #000;
+    
+    padding: 9px;
+    font-size: 3vw;
+}
+
+.img-col{
+    width: 10px;
+    height: 10px;
+
+}
+
+.caja-collapse{
+    margin-bottom: 100px;
+
+}
+.containerboton{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.prueba{
+    display: flex;
+    flex-direction: column;
+
+}
+.mrgn{
+    margin-right: 10px;
+}
+
+th li{
+    list-style-image: url("/img/book.png");
+}
+td li{
+
+    list-style-image: url("/img/author.png");
+}
+
